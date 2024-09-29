@@ -21,15 +21,15 @@ const DemoHeader = () => {
 
   return (
     <header
-      className={`border-b border-black sticky top-0 z-50 
-    ${isActive ? "bg-white" : "bg-banner"} 
+    className={`border-b border-black sticky top-0 z-50 
+    ${isActive ? "bg-white" : "bg-[rgb(189,123,101)]"} 
     transition-all duration-500`}
-    >
+  >
       <div className="size h-[70px] flex items-center justify-between">
         <Link to={"/"}>
           <img
             className="h-[2.5rem]"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCMrcYYoN8CFI6SHo-sdwas3lfqTCVCZNwpw&s"
+            src="../../../public/PenIt_logo.jpg"
             alt="logo"
           />
         </Link>
