@@ -13,6 +13,7 @@ const Like = ({ postId }) => {
 
   const { data } = useSingleFetch("posts", postId, "likes");
 
+
   useEffect(() => {
     setIsLiked(
       data && data.findIndex((item) => item.id === currentUser?.uid) !== -1
