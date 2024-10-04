@@ -35,13 +35,15 @@ const PostsCard = ({ post }) => {
             dangerouslySetInnerHTML={{ __html: desc }}
           />
         </div>
-        <div className="flex-[1]">
-          <img
-            src={postImg}
-            alt="postImg"
-            className="w-[53rem] h-[8rem] object-cover"
-          />
-        </div>
+        {postImg && (
+          <div className="flex-[1]">
+            <img
+              src={postImg}
+              alt="postImg"
+              className="w-[53rem] h-[8rem] object-cover"
+            />
+          </div>
+        )}
       </div>
       <div className="flex items-center justify-between w-full md:w-[70%] mt-[2rem] md:mt-0">
         <p className="text-xs text-gray-600">

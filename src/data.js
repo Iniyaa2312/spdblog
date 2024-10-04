@@ -14,29 +14,21 @@ export const nav = [
   ];
   
   export const discover = [
-    "Technology",
-    "Study",
-    "Programming",
-    "Sport",
-    "Knowledge",
-    "Self Improvement",
-    "Relationships",
-    "Machine Learning",
-    "Politics",
+    "Campus Life",
+    "Academics",
+    "Exams",
+    "Student Clubs",
+    "Internships",
+    "Research",
+    "Study Tips",
+    "Scholarships",
+    "Dorm Life",
+    "Career Planning",
+    "Interviews",
+    "Experience",
   ];
   
-  export const discoverActions = [
-    "Help",
-    "Status",
-    "Writers",
-    "Blog",
-    "Careers",
-    "Privacy",
-    "Terms",
-    "About",
-    "Text to speech",
-    "Teams",
-  ];
+  
   
   export const recommendedPosts = [
     {

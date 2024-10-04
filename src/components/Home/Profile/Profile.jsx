@@ -5,7 +5,7 @@ import ProfileAbout from "./Activities/ProfileAbout";
 import Modal from "../../../utils/Modal";
 import { LiaTimesSolid } from "react-icons/lia";
 import { IoSettingsSharp } from "react-icons/io5";
-import { discoverActions } from "../../../data";
+
 import EditProfile from "./EditProfile";
 import { Blog } from "../../../Context/Context";
 import { useParams } from "react-router-dom";
@@ -118,13 +118,7 @@ const Profile = () => {
               </button>
             )}
               {/*navs*/}
-              <div className="flex-[1] flex items-center flex-wrap gap-3 pt-8">
-              {discoverActions.map((item) => (
-                <button key={item} className="text-xs text-black1">
-                  {item}
-                </button>
-              ))}
-            </div>
+             
           </div>
           </div>
 

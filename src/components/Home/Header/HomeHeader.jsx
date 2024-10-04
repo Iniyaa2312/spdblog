@@ -52,9 +52,11 @@ const HomeHeader = () => {
         {/* left side  */}
         <div className="flex items-center gap-3">
           <Link to={"/"}>
-            <span className="text-5xl">
-              <BsMedium />
-            </span>
+            <img
+              className="h-[2.5rem]"
+              src="../../../public/PenIt_logo.jpg"
+              alt="logo"
+            />
           </Link>
           <Search modal={searchModal} setModal={setSearchModal} />
         </div>
@@ -89,17 +91,13 @@ const HomeHeader = () => {
               <span className="text-sm mt-2">Write</span>
             </Link>
           )}
-          <span className="text-3xl text-gray-500 cursor-pointer">
-            <IoMdNotificationsOutline />
-          </span>
+          
           <div className="flex items-center relative">
             <img
               onClick={() => setModal(true)}
               className="w-[2.3rem] h-[2.3rem] object-cover rounded-full cursor-pointer"
-              src={getUserData?.userImg || "/profile.jpg"}
-              alt="profile-img"
-            />
-            <span className="text-gray-500 cursor-pointer">
+              src={getUserData?.userImg || "../../../../public/profile.jpg"}/>
+              <span className="text-gray-500 cursor-pointer">
               <MdKeyboardArrowDown />
             </span>
             <Modal modal={modal} setModal={setModal}>
