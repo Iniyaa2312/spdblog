@@ -26,6 +26,9 @@ export const nav = [
     "Career Planning",
     "Interviews",
     "Experience",
+    "Sports",
+    "Machine Learning",
+    "Programming"
   ];
   
   
